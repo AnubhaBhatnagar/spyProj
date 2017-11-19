@@ -8,6 +8,7 @@ existing = raw_input(question)
 def start_chat(spy_name,spy_age,spy_rating):
     menu_choices ="What do u want o do?\n 1:Add a status update\n"
     menu_choices =int (raw_input(menu_choices))
+    #Just a comment for the sake of comment
     print("what's up bro?")
     #if(menu_choice==1):
         #print("Yo")
@@ -21,9 +22,10 @@ if existing.upper()=="Y":
     print "Authentication complete.Welcome"+spy_name+"age:"+str(spy_age)+"and rating:"+str(spy_rating)+"Proud to have you on leader board"
 
 else:
-    spy_name= raw_input("Welcome to spy chat, you must tell your spy name first:")
+    spy_name= raw_input("Welcome to spy chat, you must tell your spy name first!!!:")
     if len(spy_name)>0:
         spy_saluatation= raw_input("What should we call u(Mr or Ms)?")
+
         if len(spy_saluatation)>0:
             spy_name=spy_saluatation+" "+spy_name
             spy_age=input("what is your spy age?")
